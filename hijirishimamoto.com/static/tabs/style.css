@@ -1,0 +1,117 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+label {
+    color: white; // why!?
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #800080;
+}
+
+.alert {
+    color: red;
+}
+
+.content {
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    font-family: "Arial";
+    color: #fff;
+}
+
+.content a, .content a:visited, .content a:active {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px #fff dotted;
+}
+
+
+body {
+    background-color: rgb(237, 216, 244);
+    background-image: url(/static/tabs/bin/default_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type=submit] {
+    font-size: 28px;
+    background-color: #800080;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.biopic {
+    float: right;
+    margin: 5px 5px 10px 10px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgb(51, 51, 51);
+    padding-left: 10px;
+    line-height: 2;
+    text-align: left;
+    color: rgb(255, 255, 255, 0.2);
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+#footer a:link { color: inherit; }
+#footer a:visited { color: inherit; }
+#footer a:hover { color: inherit; }
+#footer a:active { color: inherit; }
