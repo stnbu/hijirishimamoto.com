@@ -96,6 +96,11 @@ input[type=submit]:hover {
     margin: 5px 5px 10px 10px;
 }
 
+.saxophonic_logo {
+    float: right;
+    margin: 5px 5px 10px 10px;
+}
+
 #footer {
     position: fixed;
     bottom: 0;
